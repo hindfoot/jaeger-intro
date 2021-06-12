@@ -28,3 +28,4 @@ Navigate to any _.ipynb_ file and open it.
 To learn this system, start here
 
 - [Static](static.ipynb) A static file with pre-captured data.  Render it using HoloViews.
+- [Real](real.ipynb) Real queries against a Jaeger server, rendered with Holoviews.
