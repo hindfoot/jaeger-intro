@@ -31,3 +31,12 @@ To learn this system, start here
 - [Static](static.ipynb) A static file with pre-captured data.  Render it using HoloViews.
 - [Real](real.ipynb) Real queries against a Jaeger server, rendered with Holoviews.
 - [Jaeger Community Demo](august-demo.ipynb) The demo I gave on the Jaeger community call, 11-November 2021
+
+For the community demo, you'll need [traceframe](/hindfoot/traceframe).  _traceframe_ is not yet on PyPI.  To use:
+
+```bash
+cd <somewhere>
+git clone git@github.com:hindfoot/traceframe.git
+# Replace ~/miniconda3/lib/python3.9/site-packages with your site-packages directory
+ln -s <somewhere>/traceframe/traceframe ~/miniconda3/lib/python3.9/site-packages
+```
