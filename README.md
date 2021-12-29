@@ -18,6 +18,7 @@ Install the data science and visualization libraries.
 pip install pandas
 pip install holoviews
 pip install plotly
+pip install networkx
 ```
 
 Run `jupyter-lab` in this repo directory (or any directory above it.)
@@ -29,3 +30,4 @@ To learn this system, start here
 
 - [Static](static.ipynb) A static file with pre-captured data.  Render it using HoloViews.
 - [Real](real.ipynb) Real queries against a Jaeger server, rendered with Holoviews.
+- [Jaeger Community Demo](august-demo.ipynb) The demo I gave on the Jaeger community call, 11-November 2021
